@@ -1,0 +1,49 @@
+.items{
+   
+    font-size: 24px;
+    border: 1px solid #ccc;
+    max-width: 92%;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.26);
+    background: linear-gradient(
+        90deg,
+        rgba(255, 118, 20, 1) 0%,
+        rgba(255, 84, 17, 1) 100%
+      );
+    margin-bottom: 10px;
+    padding: 16px;
+    color:white;
+    font-weight: bold;
+}
+
+.items:nth-child(4n + 1) {
+    background: linear-gradient(
+      90deg,
+      rgba(93, 12, 255, 1) 0%,
+      rgba(155, 0, 250, 1) 100%
+    );
+  }
+  
+  .items:nth-child(4n + 2) {
+    background: linear-gradient(
+      90deg,
+      rgba(255, 12, 241, 1) 0%,
+      rgba(250, 0, 135, 1) 100%
+    );
+  }
+  
+  .items:nth-child(4n + 3) {
+    background: linear-gradient(
+      90deg,
+      rgba(20, 159, 255, 1) 0%,
+      rgba(17, 122, 255, 1) 100%
+    );
+  }
+.items input{
+    margin-right: 20px;
+}
+
+.todo-icon{
+    float: right;
+    cursor: pointer;
+}
+

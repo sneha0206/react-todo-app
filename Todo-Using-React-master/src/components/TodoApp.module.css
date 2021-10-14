@@ -1,0 +1,19 @@
+.todo-sec{
+    background-color: black;
+    padding: 30px;
+    width: 100%;
+}
+
+.todo-form{
+   
+    color: white;
+    padding: 16px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.26);
+}
+
+
+.todo-list{
+    list-style: none;
+}
+
+
